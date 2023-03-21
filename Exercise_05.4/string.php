@@ -12,5 +12,4 @@ if ($string1 == "" || $string2 == "") {
 } else {
     echo "The passed strings were \"$string1\" and \"$string2\". Their combined length is $total characters!";
 }
-
 ?>
