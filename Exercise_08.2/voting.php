@@ -28,4 +28,5 @@ fwrite($results_writing, $temp);
 fclose($results_writing);
 
 echo "Total votes: $voices ."
-    ?>
+
+?>
