@@ -1,7 +1,7 @@
 <?php
 $results = "results.txt";
 if (!file_exists($results))
-    die("Tiedostoa ei löydy!");
+    die("File not found!");
 
 $results_num = fopen($results, "r");
 
@@ -29,4 +29,4 @@ fclose($results_writing);
 
 echo "Total votes: $voices ."
 
-?>
+    ?>
